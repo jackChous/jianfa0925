@@ -33,7 +33,7 @@ public class HADemo {
         Configuration conf = new Configuration();
         conf.addResource("core-site.xml");
         conf.addResource("hdfs-site.xml");
-        FileSystem fs = FileSystem.get(new URI("hdfs://ns1/"),conf,"root");
+        FileSystem fs = FileSystem.get(new URI("hdfs://hadoop01:9000/"),conf,"root");
         fs.mkdirs(new Path("/data3"));
         fs.close();
     }

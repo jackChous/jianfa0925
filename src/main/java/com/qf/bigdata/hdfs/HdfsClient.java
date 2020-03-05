@@ -31,10 +31,10 @@ public class HdfsClient {
         //构造一个配置对象，将要设置的配置添加到该对象中
         Configuration conf = new Configuration();
         //如何去添加
-        conf.set("fs.defaultFS","hdfs://mini1:9000");
+        conf.set("fs.defaultFS","hdfs://hadoop01:9000");
         //如果这样加载配置，需要将对应名字的文件放入resources目录中
         //而且结构必须与hadoop的配置文件的结构是一样的
-        conf.addResource("core-site.xml");
+        //conf.addResource("core-site.xml");
         //配置文件的优先级
         //1、conf.set(String name,String value)
         //2、将配置文件放入classpath下的
@@ -47,7 +47,7 @@ public class HdfsClient {
         //System.setProperty("HADOOP_USER_NAME","root");
         //fs = FileSystem.get(conf);
         //第三种方式，改变获取文件系统对象的方法
-        fs=FileSystem.get(new URI("hdfs://mini1:9000"),conf,"root");
+        fs=FileSystem.get(new URI("hdfs://hadoop01:9000"),conf,"root");
         //第四种方式关闭权限验证，重启集群
         /**
          *
@@ -61,7 +61,7 @@ public class HdfsClient {
 
     @Test
     public void testAddFileToHdfs() throws IOException {
-        fs.copyFromLocalFile(new Path("D:\\data\\doc\\a.txt"),new Path("/"));
+        fs.copyFromLocalFile(new Path("D:\\InstallConfig.ini"),new Path("/"));
     }
 
     @Test

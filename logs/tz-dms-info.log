@@ -219,3 +219,22 @@
 		Bytes Read=65606731
 	File Output Format Counters 
 		Bytes Written=208301
+2019-10-24 22:00:48,246  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:00:48,346  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:00:48,562  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:00:48,700  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:00:49,924  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:00:50,126  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:04:54,386  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:04:54,568  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:04:54,830  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:04:54,923  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:04:55,698  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:04:55,791  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:06:35,266  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:06:36,246  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:06:36,255  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:06:36,408  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:06:36,520  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:06:36,710  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
+2019-10-24 22:06:36,826  WARN [org.apache.hadoop.conf.Configuration] - Unexpected tag in conf file hdfs-site.xml: expected <property> but found <value>
